@@ -2,13 +2,11 @@
 
 ## Usage
 
-1. Copy nephila folder in app/themes
-
-2. Compile nephila theme with
+Copy `nephila` folder in `app/themes`, then compile `nephila` theme with
 ```
 $ gulp --theme nephila
 ```
-3. Add nephila theme to dist/conf.json
+Add `nephila` theme to dist/conf.json
 ```
 {
     "themes": ["taiga", "nephila"]
