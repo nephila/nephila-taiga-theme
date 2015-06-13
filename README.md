@@ -10,8 +10,8 @@ $ gulp --theme nephila
 ```
 3. Add nephila theme to dist/conf.json
 ```
-    {
-        "themes": ["taiga", "nephila"]
-    }
+{
+    "themes": ["taiga", "nephila"]
+}
 ```
 Now you can select nephila theme from your profile settings :)
