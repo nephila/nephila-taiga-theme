@@ -5,13 +5,13 @@
 1. Copy nephila folder in app/themes
 
 2. Compile nephila theme with
-
-    $ gulp --theme nephila
-
+```
+$ gulp --theme nephila
+```
 3. Add nephila theme to dist/conf.json
-
+```
     {
         "themes": ["taiga", "nephila"]
     }
-
-Now you can select nephila theme in your profile settings :)
+```
+Now you can select nephila theme from your profile settings :)
