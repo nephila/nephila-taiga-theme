@@ -1,0 +1,22 @@
+.navbar {
+    background: none;
+    &:after {
+        background: url('../images/nephila/menu-vert.png') repeat top left;
+    }
+    .nav-left {
+        >a {
+            &.logo {
+                background: none;
+            }
+        }
+    }
+    svg {
+        path {
+            fill: $white;
+        }
+    }
+}
+
+tg-project-menu {
+    background-image: url('../images/nephila/menu.png');
+}
